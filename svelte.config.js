@@ -16,7 +16,9 @@ const config = {
 		paths: {
 			base: dev ? '' : '/toodoo'
 		},
-		prerender: { entries: [] }
+		prerender: { entries: [] },
+		appDir: 'app',
+		outDir: 'build'
 	}
 };
 
