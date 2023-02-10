@@ -1,12 +1,13 @@
 <script>
+	import { base } from '$app/paths';
 	import '../app.css';
 </script>
 
 <h1 class="text-red-500 text-lg font-semibold font-serif">toodoo app</h1>
 
 <div>
-	<a href="/" class="underline hover:no-underline">home</a>
-	<a href="/about" class="underline hover:no-underline">about</a>
+	<a href="{base}/" class="underline hover:no-underline">home</a>
+	<a href="{base}/about" class="underline hover:no-underline">about</a>
 </div>
 
 <slot />

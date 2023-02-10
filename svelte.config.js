@@ -11,14 +11,11 @@ const config = {
 
 	kit: {
 		adapter: adapter({
-			fallback: '200.html'
+			fallback: 'fallback.html'
 		}),
 		paths: {
 			base: dev ? '' : '/toodoo'
-		},
-		prerender: { entries: [] },
-		appDir: 'app',
-		outDir: 'build'
+		}
 	}
 };
 
